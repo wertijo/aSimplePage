@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Datos JavaScript</title>
+	<meta name="author" content="Jreyes">
+	<meta name="description" content="Pagina describiendo cosas de Java Script">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css1.css"> <!-- invocar el css para la pagina-->
+	<link rel="icon" type="image/x-icon" href="imagenes/unimonserrate.ico"> <!-- poner icono al tab de la pagina-->
+    <script type="text/javascript" src="javascript.js"></script> <!--parte para importar script, no usado -->
+
+</head>
+
+<body>
+    <!-- import de las fuentes de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&display=swap" rel="stylesheet">
+    
+    
+	<header></header> <!-- encabezado, no usado -->
+    
+    <section> <!-- secciones para separar parrafos, en este caso 3 o más -->
+        <h1 id="arriba">Partes de una pagina web</h1>
+        <p> <!-- etiqueta para crear parrafos -->
+        
+        <!-- EJEMPLO DE <A> -->
+        <a>Etiqueta A para textos </a>  <hr>
+        
+        <!-- EJEMPLO DE DOWNLOAD -->    
+        <a href="RESUMEN%20CAP%C3%8DTULOS%2015%20Y%2016.pdf" download >Ejemplo de download pdf</a> <hr>
+        
+        <!-- EJEMPLO DE HREF -->
+        <a href="imagenes/front.jpg" target="_blank" > Abrir imagen </a><br>
+        <a href="mailto:agalvarez@unimonserrate.edu.co"> Enviar un mail </a><br> 
+        <a href="tel:3165002300">Llamada a celular</a><br>
+        <a href="front.jpg" >vader </a> <br>
+        <a href="front.jpg" ><img id="23" src="imagenes/vader.jpg" > </a>
+        <hr>
+    
+        <!-- EJEMPLO DE REL -->    
+        
+        <a rel="nofollow" href="pagina2%20-%20copia%20(2).html"> nofollow</a> <br>
+        <a rel="alternate" href="pagina2%20-%20copia%20(2).html"> alternate</a> <br>
+        <a rel="author" href="pagina2%20-%20copia%20(2).html"> author</a> <hr>
+            
+        <!-- EJEMPLO DE TARGET -->
+        
+        <a target="_blank" href="pagina2%20-%20copia%20(2).html"> traget blank</a> <br>
+        <a target="_parent" href="pagina2%20-%20copia%20(2).html"> traget parent</a><br>
+        <a target="_self" href="pagina2%20-%20copia%20(2).html"> traget self</a><br>
+        <a target="_top" href="pagina2%20-%20copia%20(2).html"> traget top</a><br>
+        <a target="" href="pagina2%20-%20copia%20(2).html"> sin traget </a><hr>
+        
+        <!-- EJEMPLO DE TYPE -->
+        
+         <a type="image/png" href="imagenes/front.jpg"> nofollow</a> <br>
+        
+    
+        
+        <br>
+        Antes que nada, hay que decir que para crear un pagina web, hay que tener en cuanta de qué partes está conformada. Generalmente, las paginas web están conformadas por 3 partes: 
+        <li>La primera es el HTML, que es como los cimientos de la pagina, incluye el texto, imagenes, y la estructura más básica.
+        <li>La segunda es el CSS, esta parte está orientada a la decoración de la pagina, en esta se centra el texto, se le pone color, se ponen fondos, etc. Con el fin de que la pagina sea más agradable visualmente.
+        <li>Finalmente está el JavaScript, del que vamos a hablar ahora, que está enfocado en el funcionamiento de la pagina. Por ejemplo hacer mensajes de alertas u otras cosas interactivas con el usuario. <a href="#abajo" ><span style="color: chocolate" >Ir abajo.</span></a>
+       
+        
+        </p>
+    </section>
+     
+    <section>
+        
+        <h3>¿Qué es JavaScript &#8482;?</h3>
+        <div>
+        <img id="im" src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png">
+        
+        <p id="p1">
+        JavaScript es el lenguaje de programación encargado de dotar de mayor interactividad y dinamismo a las páginas web. Cuando JavaScript se ejecuta en el navegador, no necesita de un compilador. El navegador lee directamente el código, sin necesidad de terceros. Por tanto, se le reconoce como uno de los tres lenguajes nativos de la web junto a HTML (contenido y su estructura) y a CSS (diseño del contenido y su estructura).
+            
+        No conviene confundir JavaScript con Java, que es un lenguaje de programación muy diferente. La confusión proviene del nombre, registrado por la misma empresa creadora de Java (Sun Microsystems). JavaScript (JS) se creó posteriormente, y la empresa norteamericana lo que hizo simplemente fue cambiar el nombre que le habían puesto sus creadores al comprar el proyecto (LiveScript). El lenguaje de programación Java está orientado a muchas más cosas que la web desde sus inicios.
+        </p>
+        <h2>Listas</h2>
+        <h3>Lista Desordenada</h3>
+        <ul type="square">
+            <li>Elemento 1 </li>
+            <li>Elemento 2 </li>
+                <ul type=none> 
+                    <li>Sub-elemento 1</li>
+                    <li>Sub-elemento 2</li>
+                    <li>Sub-elemento 3</li>
+            
+                </ul>
+            
+            <li>Elemento 3 </li>
+            <li>Elemento 4 </li>
+        </ul>
+            
+            
+        <h3> Listas Ordenadas </h3>
+            <ol type="1">
+            
+                <li>Introduccion a imagenes</li>
+                <li>Iconos en la pagina web</li>
+                <li>Iconos font</li>
+                    <ol type="a">
+                        <li>Iconos basados en imágenes</li>
+                        <li>Icono letra</li>
+                    </ol>
+                <li>Etiquetas</li>
+                <li>Otros temas</li>
+            </ol>
+            
+            
+            <img src="imagenes/barra.png" width="400"  height="200" title="javascript_1">
+       
+            
+<FORM METHOD="POST" ACTION="http://miservidor/cgi-bin/test2-cgi">
+ <INPUT TYPE="SUBMIT" VALUE="Procesar">
+ <INPUT TYPE="RESET" VALUE="Inicializar">
+
+ <SELECT NAME="lista1">
+  <OPTION>Valor 1
+  <OPTION>Valor 2
+  <OPTION>Valor 3
+</SELECT>
+</FORM>
+
+
+
+     
+        </div>
+</section>
+    
+    
+    <br>
+    <section>
+        <h3 id="abajo">¿Para que sirve JavaScript&#8482;?</h3>
+        <p>
+        Con este lenguaje de programación del lado del cliente (no en el servidor) podemos crear efectos y animaciones sin ninguna interacción, o respondiendo a eventos causados por el propio usuario tales como botones pulsados y modificaciones del DOM (document object model). Por tanto, nada tiene que ver con el lenguaje de programación Java, ya que su principal función es ayudar a crear páginas webs dinámicas.
+
+        El código de programación de JavaScript se ejecuta en los navegadores, ya sean de escritorio o móviles, ya sean Android o Iphone. Sirve para exactamente lo mismo, da igual en el tipo de dispositivo que se ejecute el navegador.
+
+        JavaScript es capaz de detectar errores en formularios, de crear bonitos sliders que se adapten a cualquier pantalla, de hacer cálculos matemáticos de forma eficiente, de modificar elementos de una página web de forma sencilla. Pero también JS es el encargado de que existan herramientas como Google Analytics, Google Tag Manager, Facebook Pixel y tantas otras, que son claros ejemplos de JavaScript. <a href="#arriba"><span style="color: chocolate">Ir arriba.</span></a>
+        
+        </p>
+        
+    
+     
+     
+     
+<section>
+     
+    <h3>Información de aspirantes</h3>
+    <h2>Infromación básica</h2>
+            <FORM>
+            <p>
+            nombre
+            <INPUT NAME="campo1"> </INPUT>
+            apellido
+            <INPUT NAME="campo2" SIZE=10 MAXLENGTH=10> 
+            </INPUT>
+            </p>
+            </FORM>
+            
+</section>
+     
+        
+        
+<hr style="height: 9px">
+    </section>
+    <p>Para más información a cerca del tema de <a style="font-size: 25px" href="https://soyrafaramos.com/que-es-javascript-para-que-sirve/">click aquí.</a></p>
+    
+    <section>
+    <a href="pagina1.html">Página anterior</a>  <div style="text-align: right"><a href="pagina2.html">Siguiente página</a></div>
+    
+    </section>        
+        
+     
+	<footer style="text-align: right">
+    <i>Jairo AlejandroReyes Duarte &copy;</i>
+    </footer> <!-- pie de pagina, aquí pongo mi copyright -->
+	
+    </body>
+
+</html>

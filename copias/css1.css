@@ -1,0 +1,56 @@
+body{
+margin: 100px;
+background-color: burlywood;
+font-family: 'Indie Flower', cursive;
+font-size: 20px;
+}
+
+h1,h2,h3,h4{
+    margin-top: 40px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center
+    
+}
+
+#im{
+float: left;
+max-width: 300px;
+max-height: 300px;
+
+}
+
+#im2{
+float: right;
+max-width: 400px;
+max-height: 400px;
+
+}
+
+#im3{
+float: left;
+max-width: 400px;
+max-height: 400x;
+
+}
+
+a{
+    font-size: 30px;
+    color: brown;
+    /*text-decoration: none; */
+}
+
+a:hover {
+    
+    color: blue; 
+}
+
+#23{
+    max-width: 20px;
+    
+}
+
+ul{
+    
+    type=none;
+}
+
